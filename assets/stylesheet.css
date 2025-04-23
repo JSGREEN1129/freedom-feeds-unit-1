@@ -81,8 +81,8 @@ nav ul li a:hover::after {
 }
 
 /* Hero Section */
-.hero {
-    background: url("../images/freedom-feeds-homepage-hero-image-background.webp") no-repeat center center;
+.homepage-hero {
+    background: url("images/homepage-hero-image.webp") no-repeat center center;
     /* I used AI to help me with this as I stuggled to apply the overlay correctly */
     background-size: cover;
     height: 80vh;
@@ -95,7 +95,7 @@ nav ul li a:hover::after {
     border-bottom: 4px solid #B22222;
 }
 
-.hero::after {
+.homepage-hero::after {
     content: '';
     position: absolute;
     top: 0;
@@ -105,23 +105,23 @@ nav ul li a:hover::after {
     background: rgba(0, 0, 0, 0.7);
 }
 
-.hero-content {
+.homepage-hero-content {
     position: relative;
     z-index: 1;
     padding: 20px;
 }
 
-.hero h1 {
+.homepage-hero h1 {
     font-size: 60px;
     margin-bottom: 10px;
 }
 
-.hero #p1 {
+.homepage-hero #p1 {
     font-size: 30px;
     margin: 0 0 10px 0;
 }
 
-.hero #p2 {
+.homepage-hero #p2 {
     font-size: 20px;
     margin-bottom: 75px;
 }
