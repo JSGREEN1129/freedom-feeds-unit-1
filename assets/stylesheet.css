@@ -112,17 +112,17 @@ nav ul li a:hover::after {
 }
 
 .homepage-hero h1 {
-    font-size: 60px;
+    font-size: 90px;
     margin-bottom: 10px;
 }
 
 .homepage-hero #p1 {
-    font-size: 30px;
+    font-size: 45px;
     margin: 0 0 10px 0;
 }
 
 .homepage-hero #p2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 75px;
 }
 
@@ -142,4 +142,109 @@ nav ul li a:hover::after {
     background-color: #FFFFFF;
     border-color: #B22222;
     color: #B22222;
+}
+
+/* MISSION AND IMPACT SECTION STYLING */
+.homepage-mission,
+.homepage-impact {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #B22222;
+}
+
+.homepage-mission-image {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 50px;
+}
+
+.homepage-impact-image {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 50px;
+}
+
+.homepage-mission-image img,
+.homepage-impact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #B22222;
+}
+
+.homepage-mission-container {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.homepage-impact-container {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.homepage-mission h2,
+.homepage-impact h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #B22222;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+.homepage-mission p,
+.homepage-impact p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* SOPHIES STORY ARTICLE STYLING*/
+.homepage-sophies-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: url("images/homepage-sophies-story-image-sophie.webp") no-repeat center center;
+    /* I used AI to help me with this as I stuggled to apply the overlay correctly */
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    height: 80vh;
+    border-bottom: 4px solid #B22222;
+    position: relative;
+}
+
+.homepage-sophies-story::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.homepage-sophies-container {
+    position: relative;
+    z-index: 1;
+    max-width: 70%;
+    text-align: left;
+}
+
+.homepage-sophies-story h2 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+.homepage-sophies-story p {
+    font-size: 24px;
 }
