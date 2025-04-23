@@ -80,7 +80,7 @@ nav ul li a:hover::after {
     pointer-events: none;
 }
 
-/* Hero Section */
+/* HERO SECTION STYLING */
 .homepage-hero {
     background: url("images/homepage-hero-image.webp") no-repeat center center;
     /* I used AI to help me with this as I stuggled to apply the overlay correctly */
