@@ -112,17 +112,17 @@ nav ul li a:hover::after {
 }
 
 .homepage-hero h1 {
-    font-size: 90px;
+    font-size: 60px;
     margin-bottom: 10px;
 }
 
 .homepage-hero #p1 {
-    font-size: 45px;
+    font-size: 30px;
     margin: 0 0 10px 0;
 }
 
 .homepage-hero #p2 {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 75px;
 }
 
@@ -192,7 +192,7 @@ nav ul li a:hover::after {
 
 .homepage-mission h2,
 .homepage-impact h2 {
-    font-size: 60px;
+    font-size: 24px;
     margin-bottom: 20px;
     color: #B22222;
     text-decoration: underline;
@@ -201,7 +201,7 @@ nav ul li a:hover::after {
 
 .homepage-mission p,
 .homepage-impact p {
-    font-size: 24px;
+    font-size: 12px;
     margin-bottom: 30px;
 }
 
@@ -210,13 +210,13 @@ nav ul li a:hover::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 20px;
+    padding: 100px 20px;
     background: url("images/homepage-sophies-story-image-sophie.webp") no-repeat center center;
     /* I used AI to help me with this as I stuggled to apply the overlay correctly */
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    height: 80vh;
+    height: 30vh;
     border-bottom: 4px solid #B22222;
     position: relative;
 }
@@ -239,12 +239,175 @@ nav ul li a:hover::after {
 }
 
 .homepage-sophies-story h2 {
-    font-size: 60px;
+    font-size: 24px;
     margin-bottom: 15px;
     text-decoration: underline;
     text-decoration-thickness: 4px;
 }
 
 .homepage-sophies-story p {
-    font-size: 24px;
+    font-size: 12px;
+}
+
+/* FOOTER SECTION STYLING */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left h2,
+.footer-right h2 {
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.footer-center {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-center ul li {
+    display: inline;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+    .poppy-icon {
+        display: none;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+
+    .active {
+        padding-bottom: 9px;
+    }
+
+    .homepage-hero {
+        height: 60vh;
+    }
+
+    .homepage-hero h1 {
+        font-size: 20px;
+    }
+
+    .homepage-hero #p1 {
+        font-size: 10px;
+    }
+
+    .homepage-hero #p2 {
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        padding: 6px 15px;
+        font-size: 6px;
+        border: 0.5px solid #FFFFFF;
+    }
+
+    .homepage-mission,
+    .homepage-impact {
+        flex-direction: column;
+    }
+
+    .homepage-mission-container,
+    .homepage-impact-container {
+        order: 1;
+        max-width: 100%;
+        padding: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .homepage-mission-image,
+    .homepage-impact-image {
+        order: 2;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .homepage-mission h2,
+    .homepage-impact h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-decoration-thickness: 2px;
+    }
+
+    .homepage-mission p,
+    .homepage-impact p {
+        font-size: 9px;
+        margin-bottom: 15px;
+    }
+
+    .homepage-sophies-story {
+        height: 60vh;
+    }
+
+    .homepage-sophies-story h2 {
+        font-size: 18px;
+        margin-bottom: 7.5px;
+        text-decoration-thickness: 2px;
+    }
+
+    .homepage-sophies-story p {
+        font-size: 9px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .footer-left,
+    .footer-right {
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .footer-left h2,
+    .footer-right h2 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .footer-center ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .footer-center ul li a {
+        font-size: 14px;
+    }
 }
