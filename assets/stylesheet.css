@@ -192,7 +192,7 @@ nav ul li a:hover::after {
 
 .homepage-mission h2,
 .homepage-impact h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
     color: #B22222;
     text-decoration: underline;
@@ -201,7 +201,7 @@ nav ul li a:hover::after {
 
 .homepage-mission p,
 .homepage-impact p {
-    font-size: 12px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
@@ -216,7 +216,7 @@ nav ul li a:hover::after {
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    height: 30vh;
+    height: 80vh;
     border-bottom: 4px solid #B22222;
     position: relative;
 }
@@ -239,14 +239,14 @@ nav ul li a:hover::after {
 }
 
 .homepage-sophies-story h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 15px;
     text-decoration: underline;
     text-decoration-thickness: 4px;
 }
 
 .homepage-sophies-story p {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /* FOOTER SECTION STYLING */
@@ -355,6 +355,11 @@ footer {
         padding: 0;
     }
 
+    .homepage-mission-image img,
+    .homepage-impact-image img {
+        border: 2px solid #B22222;
+    }
+
     .homepage-mission h2,
     .homepage-impact h2 {
         font-size: 18px;
@@ -411,3 +416,5 @@ footer {
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 427px) {}
