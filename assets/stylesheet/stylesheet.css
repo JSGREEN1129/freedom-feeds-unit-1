@@ -315,6 +315,65 @@ header {
     margin-bottom: 20px;
 }
 
+/* donation-salvation-army - A section to an external partners website when clicking the logo */
+.donation-salvation-army {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-bottom: 2px solid #B22222;
+}
+
+.donation-salvation-army-image {
+    order: 2;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally if needed */
+}
+
+.donation-salvation-army-image a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.donation-salvation-army-image img {
+    max-width: 100%;
+    width: 150px;
+    /* Set specific size instead of scaling */
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.donation-salvation-army-container {
+    order: 1;
+    max-width: 100%;
+    text-align: center;
+}
+
+.donation-salvation-army h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #B22222;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.donation-salvation-army p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
 
 /* FOOTER SECTION STYLING */
 footer {
