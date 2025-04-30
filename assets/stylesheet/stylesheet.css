@@ -250,12 +250,6 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-    .header-left,
-    .header-right {
-        display: flex;
-        align-items: center;
-    }
-
     .poppy-icon {
         display: block;
         width: 40px;
@@ -266,10 +260,6 @@ footer {
 
     .nav-links a {
         font-size: 20px;
-    }
-
-    .homepage-hero {
-        height: 60vh;
     }
 
     .homepage-hero h1 {
@@ -286,21 +276,11 @@ footer {
         margin-bottom: 30px;
     }
 
-    .cta-button {
-        padding: 6px 15px;
-        font-size: 14px;
-        border: 0.5px solid #FFFFFF;
-    }
-
     .homepage-mission,
     .homepage-impact {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 40px 20px;
-        background-color: #FFFFFF;
-        color: #000000;
-        border-bottom: 2px solid #B22222;
     }
 
     .homepage-mission-image {
@@ -319,12 +299,8 @@ footer {
 
     .homepage-mission-image img,
     .homepage-impact-image img {
-        width: 100%;
         height: auto;
-        border-radius: 10px;
-        border: 2px solid #B22222;
         margin-top: 65px;
-
     }
 
     .homepage-mission-container {
@@ -345,9 +321,6 @@ footer {
     .homepage-mission h2,
     .homepage-impact h2 {
         font-size: 30px;
-        margin-bottom: 20px;
-        color: #B22222;
-        text-decoration: underline;
         text-decoration-thickness: 4px;
     }
 
@@ -364,18 +337,11 @@ footer {
     .homepage-sophies-story h2 {
         font-size: 30px;
         margin-bottom: 7.5px;
-        text-decoration-thickness: 2px;
+        text-decoration-thickness: 4px;
     }
 
     .homepage-sophies-story p {
         font-size: 10px;
-    }
-
-    footer {
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
     }
 
     .footer-left,
@@ -387,13 +353,11 @@ footer {
 
     .footer-centre h2 {
         display: flex;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .footer-left h2,
     .footer-right h2 {
-        font-size: 12px;
-        margin: 5px 0;
         display: none;
     }
 }
@@ -416,32 +380,6 @@ footer {
 
     .homepage-sophies-story p {
         font-size: 14px;
-    }
-
-    footer {
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
-    }
-
-    .footer-left,
-    .footer-right {
-        flex-direction: row;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
-    .footer-centre h2 {
-        display: flex;
-        font-size: 16px;
-    }
-
-    .footer-left h2,
-    .footer-right h2 {
-        font-size: 12px;
-        margin: 5px 0;
-        display: none;
     }
 }
 
@@ -488,15 +426,66 @@ footer {
         font-size: 18px;
     }
 
-    footer {
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
+    .footer-centre h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .poppy-icon {
+        transform: scale(2);
+    }
+
+    .nav-links a {
+        font-size: 36px;
+    }
+
+    .homepage-hero h1 {
+        font-size: 120px;
+    }
+
+    .homepage-hero #p1 {
+        font-size: 60px;
+    }
+
+    .homepage-hero #p2 {
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+
+    .cta-button {
+        padding: 15px 15px;
+        font-size: 36px;
+    }
+
+    .homepage-mission-image img,
+    .homepage-impact-image img {
+        margin-top: 30px;
+    }
+
+    .homepage-mission h2,
+    .homepage-impact h2 {
+        font-size: 60px;
+    }
+
+    .homepage-mission p,
+    .homepage-impact p {
+        font-size: 36px;
+    }
+
+    .homepage-sophies-story {
+        height: 100vh;
+    }
+
+    .homepage-sophies-story h2 {
+        font-size: 60px;
+    }
+
+    .homepage-sophies-story p {
+        font-size: 36px;
     }
 
     .footer-centre h2 {
-        display: flex;
-        font-size: 16px;
+        font-size: 36px;
     }
 }
