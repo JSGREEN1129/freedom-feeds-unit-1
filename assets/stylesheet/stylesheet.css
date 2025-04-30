@@ -65,6 +65,24 @@ header {
     border-bottom: 2px solid #B22222;
 }
 
+.cta-button {
+    background-color: #B22222;
+    color: #FFFFFF;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FFFFFF;
+    border-color: #B22222;
+    color: #B22222;
+}
+
 
 /* HERO SECTION STYLING */
 .homepage-hero {
@@ -110,23 +128,7 @@ header {
     margin-bottom: 20px;
 }
 
-.cta-button {
-    background-color: #B22222;
-    color: #FFFFFF;
-    padding: 6px 15px;
-    text-decoration: none;
-    border-radius: 30px;
-    border: 1px solid #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    transition: background-color 0.3s, border-color 0.3s;
-}
 
-.cta-button:hover {
-    background-color: #FFFFFF;
-    border-color: #B22222;
-    color: #B22222;
-}
 
 /* MISSION AND IMPACT SECTION STYLING */
 .homepage-mission,
