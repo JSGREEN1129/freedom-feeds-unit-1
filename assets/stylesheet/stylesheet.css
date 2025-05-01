@@ -521,7 +521,8 @@ footer {
 
     .donation-mission-image img {
         height: auto;
-        margin-top: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .donation-mission-container,
@@ -595,6 +596,11 @@ footer {
     .homepage-sophies-story p {
         font-size: 14px;
     }
+
+    .donation-mission p,
+    .donation-salvation-army p {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -640,6 +646,33 @@ footer {
         font-size: 18px;
     }
 
+    .donation-hero {
+        height: 80vh;
+    }
+
+    .donation-hero h1 {
+        font-size: 60px;
+    }
+
+    .donation-hero #p1 {
+        font-size: 30px;
+    }
+
+    .donation-hero #p2 {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+
+    .donation-mission-image img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .donation-mission p,
+    .donation-salvation-army p {
+        font-size: 18px;
+    }
+
     .footer-centre h2 {
         font-size: 18px;
     }
@@ -668,7 +701,7 @@ footer {
     }
 
     .cta-button {
-        padding: 15px 15px;
+        padding: 15px 45px;
         font-size: 36px;
     }
 
@@ -697,6 +730,36 @@ footer {
 
     .homepage-sophies-story p {
         font-size: 36px;
+    }
+
+    .donation-hero h1 {
+        font-size: 120px;
+    }
+
+    .donation-hero #p1 {
+        font-size: 60px;
+    }
+
+    .donation-hero #p2 {
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+
+
+    .donation-mission h2,
+    .donation-salvation-army h2 {
+        font-size: 60px;
+    }
+
+    .donation-mission p,
+    .donation-salvation-army p {
+        font-size: 36px;
+    }
+
+    .donation-salvation-army-image img {
+        max-width: 100%;
+        width: 400px;
+        padding-right: 150px;
     }
 
     .footer-centre h2 {
