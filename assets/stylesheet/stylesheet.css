@@ -568,7 +568,8 @@ footer {
 
     .footer-centre h2 {
         display: flex;
-        font-size: 15px;
+        font-size: 20px;
+        font-weight: 400;
     }
 
     .footer-left h2,
@@ -666,6 +667,12 @@ footer {
     .donation-mission-image img {
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+
+    .donation-salvation-army-image img {
+        max-width: 50%;
+        width: 350px;
+        padding-right: 50px;
     }
 
     .donation-mission p,
