@@ -603,6 +603,20 @@ footer {
         margin-top: 20px;
     }
 
+    .contact-us-hero h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .contact-us-hero #p1 {
+        font-size: 20px;
+    }
+
+    .contact-us-hero #p2 {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
     .footer-left,
     .footer-right {
         flex-direction: row;
@@ -724,6 +738,24 @@ footer {
         font-size: 18px;
     }
 
+    .contact-us-hero {
+        height: 80vh;
+
+    }
+
+    .contact-us-hero h1 {
+        font-size: 60px;
+    }
+
+    .contact-us-hero #p1 {
+        font-size: 30px;
+    }
+
+    .contact-us-hero #p2 {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+
     .footer-centre h2 {
         font-size: 18px;
     }
@@ -811,6 +843,19 @@ footer {
         max-width: 100%;
         width: 400px;
         padding-right: 150px;
+    }
+
+    .contact-us-hero h1 {
+        font-size: 120px;
+    }
+
+    .contact-us-hero #p1 {
+        font-size: 60px;
+    }
+
+    .contact-us-hero #p2 {
+        font-size: 48px;
+        margin-bottom: 60px;
     }
 
     .footer-centre h2 {
