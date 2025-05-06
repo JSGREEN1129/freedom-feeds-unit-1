@@ -86,25 +86,17 @@ header {
 
 /* HERO SECTION STYLING */
 .homepage-hero {
-    position: relative;
+    background: url("../images/homepage-hero-image.webp") no-repeat center center;
+    /* I used AI to help me with this as I stuggled to apply the overlay correctly */
+    background-size: cover;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    color: #ffffff;
     text-align: center;
     border-bottom: 2px solid #B22222;
-    overflow: hidden;
-    color: #ffffff;
-}
-
-.hero-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
 }
 
 .homepage-hero::after {
