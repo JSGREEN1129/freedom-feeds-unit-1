@@ -24,64 +24,28 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- | --- |
 |  | [contact-us.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/contact-us.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/contact-us.html) | ![screenshot](./documentation/contact-us-html-validation.png) | Notes (if applicable) |
 |  | [donate.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/donate.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/donate.html) | ![screenshot](./documentation/donate-html-validation.png) | Notes (if applicable) |
-|  | [index.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/index.html) | ![screenshot](./Documentation/index-html-validation.png) | Notes (if applicable) |
+|  | [index.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/index.html) | ![screenshot](./documentation/index-html-validation.png) | Notes (if applicable) |
 
 
 ### CSS
-
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-2. If you are copying/pasting your CSS code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-
-It's recommended to validate the live site for your primary CSS file on the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https://jsgreen1129.github.io/freedom-feeds-unit-1
-
-If you have additional/multiple CSS files, then individual "[validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)" is recommended for the extra CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using external libraries/frameworks (e.g: Bootstrap, Materialize, Font Awesome, etc.), then sometimes the tool will attempt to also validate these, even though it's not part of your own actual code that you wrote. You are not required to validate the external libraries or frameworks!
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [stylesheet.css](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/assets/stylesheet/stylesheet.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://jsgreen1129.github.io/freedom-feeds-unit-1) | ![screenshot](documentation/validation/css-assets-stylesheet.png) | Notes (if applicable) |
+| assets | [stylesheet.css](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/assets/stylesheet/stylesheet.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://jsgreen1129.github.io/freedom-feeds-unit-1) | ![screenshot](./documentation/css-stylesheet-validation.png) | Notes (if applicable) |
 
 
 ## Responsiveness
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
-
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
-
-Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![screenshot](./documentation/mobile-home-responsive.png) | ![screenshot](./documentation/tablet-home-responsive.png) | ![screenshot](./documentation/desktop-home-responsive.png) | Works as expected |
+| Donate | ![screenshot](./documentation/mobile-donate-responsive.png) | ![screenshot](./documentation/tablet-donate-responsive.png) | ![screenshot](./documentation/desktop-donate-responsive.png) | Works as expected |
+| Contact-us | ![screenshot](./documentation/mobile-contact-us-responsive.png) | ![screenshot](./documentation/tablet-contact-us-responsive.png) | ![screenshot](./documentation/desktop-contact-us-responsive.png) | Works as expected |
+
 
 ## Browser Compatibility
 
