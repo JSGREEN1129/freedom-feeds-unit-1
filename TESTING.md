@@ -68,31 +68,19 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Page | Chrome | Firefox | Opera | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](./documentation/firefox-homepage-responsive.png) | ![screenshot](./documentation/opera-homepage-responsive.png) | Works as expected |
-| Donate | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](./documentation/firefox-donate-responsive.png) | ![screenshot](./documentation/opera-donate-responsive.png) | Works as expected |
-| Contact-us | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](./documentation/firefox-contact-us-responsive.png) | ![screenshot](./documentation/opera-contact-us-responsive.png) | Works as expected |
+| Home | ![screenshot](./documentation/chrome-homepage-responsive.png) | ![screenshot](./documentation/firefox-homepage-responsive.png) | ![screenshot](./documentation/opera-homepage-responsive.png) | Works as expected |
+| Donate | ![screenshot](./documentation/chrome-donate-responsive.png) | ![screenshot](./documentation/firefox-donate-responsive.png) | ![screenshot](./documentation/opera-donate-responsive.png) | Works as expected |
+| Contact-us | ![screenshot](./documentation/chrome-contact-us-responsive.png) | ![screenshot](./documentation/firefox-contact-us-responsive.png) | ![screenshot](./documentation/opera-contact-us-responsive.png) | Works as expected |
 
 ## Lighthouse Audit
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports. Avoid testing the local version (Gitpod/VSCode/etc.), as this can have knock-on effects for performance. If you don't have "Lighthouse" in your Developer Tools, it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Unless your project is a single-page application (SPA), you should test Lighthouse Audit results for all of your pages, for both *mobile* and *desktop*.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
 | Page | Mobile | Desktop |
 | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
-| Gallery | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
+| Home | ![screenshot](./documentation/desktop-homepage-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
+| Donate | ![screenshot](./documentation/desktop-donate-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
+| Contact-us | ![screenshot](./documentation/desktop-contact-us-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
 
 ## Defensive Programming
 
