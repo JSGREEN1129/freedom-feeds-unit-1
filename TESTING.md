@@ -56,9 +56,6 @@ Use this space to discuss testing the live/deployed site on various browsers. Co
 Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
 - [Opera](https://www.opera.com/download)
 
 **IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
@@ -69,13 +66,11 @@ Please note, there are services out there that can test multiple browser compati
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Page | Chrome | Firefox | Safari | Notes |
+| Page | Chrome | Firefox | Opera | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](./documentation/firefox-homepage-responsive.png) | ![screenshot](./documentation/opera-homepage-responsive.png) | Works as expected |
+| Donate | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](./documentation/firefox-donate-responsive.png) | ![screenshot](./documentation/opera-donate-responsive.png) | Works as expected |
+| Contact-us | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](./documentation/firefox-contact-us-responsive.png) | ![screenshot](./documentation/opera-contact-us-responsive.png) | Works as expected |
 
 ## Lighthouse Audit
 
