@@ -76,11 +76,11 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
-| Page | Mobile | Desktop |
+| Page | Desktop |
 | --- | --- | --- |
-| Home | ![screenshot](./documentation/desktop-homepage-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
-| Donate | ![screenshot](./documentation/desktop-donate-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
-| Contact-us | ![screenshot](./documentation/desktop-contact-us-lighthouse.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
+| Home | ![screenshot](./documentation/desktop-homepage-lighthouse.png) |
+| Donate | ![screenshot](./documentation/desktop-donate-lighthouse.png) |
+| Contact-us | ![screenshot](./documentation/desktop-contact-us-lighthouse.png) |
 
 ## Defensive Programming
 
