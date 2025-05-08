@@ -20,31 +20,31 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-| Directory | File | URL | Screenshot | Notes |
-| --- | --- | --- | --- | --- |
-| assets | [stylesheet.css](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/assets/stylesheet/stylesheet.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://jsgreen1129.github.io/freedom-feeds-unit-1) | ![screenshot](./documentation/css-stylesheet-validation.png) | Notes (if applicable) |
+| Directory | File | URL | Screenshot |
+| --- | --- | --- | --- |
+| assets | [stylesheet.css](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/assets/stylesheet/stylesheet.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://jsgreen1129.github.io/freedom-feeds-unit-1) | ![screenshot](./documentation/css-stylesheet-validation.png) |
 
 
 ## Responsiveness
 
 I've tested my deployed project to check for responsiveness issues.
 
-| Page | Mobile | Tablet | Desktop | Notes |
-| --- | --- | --- | --- | --- |
-| Home | ![screenshot](./documentation/mobile-home-responsive.png) | ![screenshot](./documentation/tablet-home-responsive.png) | ![screenshot](./documentation/desktop-home-responsive.png) | Works as expected |
-| Donate | ![screenshot](./documentation/mobile-donate-responsive.png) | ![screenshot](./documentation/tablet-donate-responsive.png) | ![screenshot](./documentation/desktop-donate-responsive.png) | Works as expected |
-| Contact-us | ![screenshot](./documentation/mobile-contact-us-responsive.png) | ![screenshot](./documentation/tablet-contact-us-responsive.png) | ![screenshot](./documentation/desktop-contact-us-responsive.png) | Works as expected |
+| Page | Mobile | Tablet | Desktop |
+| --- | --- | --- | --- |
+| Home | ![screenshot](./documentation/mobile-home-responsive.png) | ![screenshot](./documentation/tablet-home-responsive.png) | ![screenshot](./documentation/desktop-home-responsive.png) |
+| Donate | ![screenshot](./documentation/mobile-donate-responsive.png) | ![screenshot](./documentation/tablet-donate-responsive.png) | ![screenshot](./documentation/desktop-donate-responsive.png) |
+| Contact-us | ![screenshot](./documentation/mobile-contact-us-responsive.png) | ![screenshot](./documentation/tablet-contact-us-responsive.png) | ![screenshot](./documentation/desktop-contact-us-responsive.png) |
 
 
 ## Browser Compatibility
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Page | Chrome | Firefox | Opera | Notes |
-| --- | --- | --- | --- | --- |
-| Home | ![screenshot](./documentation/chrome-homepage-responsive.png) | ![screenshot](./documentation/firefox-homepage-responsive.png) | ![screenshot](./documentation/opera-homepage-responsive.png) | Works as expected |
-| Donate | ![screenshot](./documentation/chrome-donate-responsive.png) | ![screenshot](./documentation/firefox-donate-responsive.png) | ![screenshot](./documentation/opera-donate-responsive.png) | Works as expected |
-| Contact-us | ![screenshot](./documentation/chrome-contact-us-responsive.png) | ![screenshot](./documentation/firefox-contact-us-responsive.png) | ![screenshot](./documentation/opera-contact-us-responsive.png) | Works as expected |
+| Page | Chrome | Firefox | Opera |
+| --- | --- | --- | --- |
+| Home | ![screenshot](./documentation/chrome-homepage-responsive.png) | ![screenshot](./documentation/firefox-homepage-responsive.png) | ![screenshot](./documentation/opera-homepage-responsive.png) |
+| Donate | ![screenshot](./documentation/chrome-donate-responsive.png) | ![screenshot](./documentation/firefox-donate-responsive.png) | ![screenshot](./documentation/opera-donate-responsive.png) |
+| Contact-us | ![screenshot](./documentation/chrome-contact-us-responsive.png) | ![screenshot](./documentation/firefox-contact-us-responsive.png) | ![screenshot](./documentation/opera-contact-us-responsive.png) |
 
 ## Lighthouse Audit
 
