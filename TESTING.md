@@ -11,9 +11,9 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-|  | [contact-us.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/contact-us.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/contact-us.html) | ![screenshot](./documentation/contact-us-html-validation.png) | Notes (if applicable) |
-|  | [donate.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/donate.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/donate.html) | ![screenshot](./documentation/donate-html-validation.png) | Notes (if applicable) |
-|  | [index.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/index.html) | ![screenshot](./documentation/index-html-validation.png) | Notes (if applicable) |
+|  | [contact-us.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/contact-us.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/contact-us.html) | ![screenshot](./documentation/contact-us-html-validation.png) |
+|  | [donate.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/donate.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/donate.html) | ![screenshot](./documentation/donate-html-validation.png) |
+|  | [index.html](https://github.com/JSGREEN1129/freedom-feeds-unit-1/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://jsgreen1129.github.io/freedom-feeds-unit-1/index.html) | ![screenshot](./documentation/index-html-validation.png) |
 
 
 ### CSS
